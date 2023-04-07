@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* services section css */
+    
+    .servicesText.card {
+        height: 280px;
+        cursor: pointer;
+    }
+    
+    .servicesIcon {
+        font-size: 36px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .card-title {
+        text-align: center;
+    }
+    
+    .card:hover .servicesIcon {
+        color: #008000;
+    }
+    
+    .servicesText:hover {
+        border: 1px solid #008000;
+    }
+    
+    .container {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: blueviolet;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    header {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+</style>
+
+<body>
+    <header>
+        <video src="./background.mp4" autoplay muted loop></video>
+
+        <div class="container">
+            <video src="./background.mp4" autoplay muted loop></video>
+            <!-- services section-->
+            <section id="services">
+                <div class="container">
+                    <h1 class="text-center">Information</h1>
+                    <div class="row">
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class="fas servicesIcon fa-clock"></i>
+                                    <h4 class="card-title mt-3">VISION</h4>
+                                    <p class="card-text mt-3">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-layer-group'></i>
+                                    <h4 class="card-title mt-3">Website Design</h4>
+                                    <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='far servicesIcon fa-check-circle'></i>
+                                    <h4 class="card-title mt-3">TAILORED SERVICES TO CORPORATE CLIENTS</h4>
+                                    <p class="card-text mt-3">Specialized partnership offers and discounts on bulk orders. A wide variety of Vehicle options for convenient transportation of staff, students and other corporate and company stakeholders. Convenience of Vehicle service
+                                        and maintenance of a company’s entire fleet under one roof. Aftermarket installation of special car parts and modification. High grade Vehicle branding and painting services. Importation of special service Vehicles
+                                        on behalf e.g. Ambulance
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-search'></i>
+                                    <h4 class="card-title mt-3">SERVICES</h4>
+                                    <p class="card-text mt-3">Direct sale of brand new, foreign used and locally used Vehicles to both individuals and corporates. Imports on behalf - allowing customers to ship in their desired Vehicle without the hassle and logistical complexities
+                                        involved. A service center offering Motor Vehicle maintenance services, such as respray, panel beating, upgrades, accessories and parts. Trade-ins to allow clients to conveniently upgrade from current Vehicle to
+                                        a newer and fresher unit. The trade-in Vehicle then covers part of the purchase price for their desired car.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-shield-alt'></i>
+                                    <h4 class="card-title mt-3"></h4>
+                                    <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-wrench'></i>
+                                    <h4 class="card-title mt-3">OUR MISSION</h4>
+                                    <p class="card-text mt-3">To offer excellent customer satisfaction by providing affordable and top-of-the-range Motor Vehicles.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
